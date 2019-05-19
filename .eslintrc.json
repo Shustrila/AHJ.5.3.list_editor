@@ -13,5 +13,15 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-return-assign": "off",
+        "no-param-reassign": "off",
+        "no-undef": "off",
+        "no-restricted-globals": "off",
+        "class-methods-use-this": "off",
+        "no-plusplus": "off",
+        "no-alert": "off",
+        "func-names": "off",
+        "no-restricted-syntax": "off",
+        "no-useless-constructor": "off"
     }
 }
