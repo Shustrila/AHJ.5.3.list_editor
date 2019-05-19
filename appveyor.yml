@@ -5,14 +5,14 @@ branches:
     - master
 cache: node_modules
 install:
-  - yarn install
+  - npm install
 build: off
 build_script:
-  - yarn run build
+  - npm run build
 test_script:
-  - yarn run lint
-  - yarn run test
-  - yarn run e2e
+  - npm run lint
+  - npm run test
+  - npm run e2e
 deploy_script:
   - git config --global credential.helper store
   - git config --global user.name AppVeyor
