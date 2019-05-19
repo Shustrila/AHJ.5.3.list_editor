@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.editor {
+    width: 400px;
+}
+.editor__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.editor__head-title {
+    font-size: 20px;
+}
+.editor__head-add {
+    padding: 5px;
+    font-size: 20px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    outline: transparent;
+    transition: 0.3s;
+}
+.editor__head-add:hover {
+    color: #dddddd;
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.modal__wrapper {
+    cursor: default;
+}
+
+.form {
+    width: 350px;
+    padding: 35px 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+.form__label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.form__title {
+    margin-bottom: 10px;
+}
+.form__input {
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid #333333;
+    width: 100%;
+    outline: #333333;
+}
+.form__error {
+    color: red;
+    font-size: 12px;
+}
+.form__wrapper-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+.form__button {
+    cursor: pointer;
+    padding: 10px 40px;
+    margin-right: 15px;
+    border-radius: 50px;
+    background-color: #dddddd;
+    border: 0;
+    outline: transparent;
+    transition: 0.3s;
+}
+.form__button:hover {
+    box-shadow: 1px 1px 10px #dddddd;
+}
+.form__button:last-child {
+    margin-right: 0;
+}
+.table {
+    width: 100%;
+    background-color: #dddddd;
+}
+.table__col{
+    padding: 5px 0;
+}
+.table__button {
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-right: 10px;
+    cursor: pointer;
+    outline: transparent;
+}
+.table__edit {
+    background-color: green;
+}
+.table__remove {
+    background-color: red;
+}
+
